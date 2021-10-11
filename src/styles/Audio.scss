@@ -1,0 +1,23 @@
+.grid-container {
+	font-family: "Roboto";
+	display: grid;
+	grid-template-columns: 1.5em minmax(400px, 650px) minmax(200px, 350px) 1.5em;
+	min-width: 75vw;
+	justify-content: center;
+}
+
+.release-list,
+.player {
+	grid-column: 1/4;
+}
+
+.release-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	min-width: 75vw;
+	text-align: center;
+}
+
+.nebuchadnezzar {
+	grid-column: 2/3;
+}

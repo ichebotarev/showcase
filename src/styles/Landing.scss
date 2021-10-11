@@ -1,0 +1,11 @@
+.landing-container {
+	height: 96.775vh;
+	background-image: url(../img/test4.png);
+	mix-blend-mode: multiply;
+	backdrop-filter: 10px;
+	background-position: bottom right;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column-reverse;
+}

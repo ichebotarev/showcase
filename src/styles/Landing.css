@@ -1,0 +1,18 @@
+.landing-container {
+  height: 96.775vh;
+  background-image: url(../img/test4.png);
+  mix-blend-mode: multiply;
+  -webkit-backdrop-filter: 10px;
+          backdrop-filter: 10px;
+  background-position: bottom right;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+/*# sourceMappingURL=Landing.css.map */
